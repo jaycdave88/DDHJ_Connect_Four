@@ -1,9 +1,13 @@
-![Bilby Stampede](http://i57.tinypic.com/zl3wpy.jpg)
+![](http://i57.tinypic.com/zl3wpy.jpg)
 
 # DDHJ 
 ## Connect-Four
 ===
+## Wire frame
+![](http://i61.tinypic.com/rjdt3o.png)
+===
 #### Connect four 
+===
 * Board
 * Functional Game
 	- Declasre Winner
@@ -18,6 +22,9 @@
 * STRETCH Goal
 	- Drag & drop
 	- Player piece selector
+
+
+
 
 
 	
