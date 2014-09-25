@@ -1,29 +1,13 @@
-.stuff{
-	background-color: red
+h1{
+  background-color: red
 }
 
-#connect-four #board {
-  border: 1px solid #DEDEDE;
-  margin-left: 130px;
-  position: absolute;
-  text-align: center;
+.board {
+  border: 1px solid black;
+  margin: 0 50px 0 50px ;
+  overflow: hidden;
 }
 
-#connect-four .message {
-  clear: left; 
-  display: block;
-}
-
-
-#connect-four {
-  text-align: center;
-  width: 400px;
-}
-#connect-four ul {
-  margin: auto;
-  float: left;
-  width: 0px;
-  padding-left: 20px;
-  color: #DEDEDE;
+.column1 {
 
 }
