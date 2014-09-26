@@ -1,7 +1,34 @@
-$(document).ready(function() {
-  // This is called after the document has loaded in its entirety
-  // This guarantees that any elements we bind to will exist on the page
-  // when we try to bind to them
+var Counter = function() {
+  this.count = 0
+};
 
-  // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
-});
+Counter.prototype.increment = function() {
+  this.count ++
+};
+
+var clickCounter = new Counter();
+
+var isEven = function(count) {
+  if ( count % 2 === 0 ) {
+    return true
+  } else {
+    return false
+  }
+};
+
+$( '.column' ).on( 'click', function() {
+
+  if ( isEven(clickCounter.count) ) {
+    newClass = "red"
+  } else {
+    newClass = "yellow"
+  };
+
+  if ( jQuery.isEmptyObject($( this ).children( ".empty" )[0]) ) {
+    alert("You can't do that!");
+  } else {
+    $( this ).children( ".empty" ).last().attr("class",newClass);
+    clickCounter.increment();
+  }
+})
+
