@@ -24,10 +24,10 @@ $( '.column' ).on( 'click', function() {
     newClass = "yellow"
   };
 
-  if ( jQuery.isEmptyObject($( this ).children( ".emtpy" )[0]) ) {
+  if ( jQuery.isEmptyObject($( this ).children( ".empty" )[0]) ) {
     alert("You can't do that!");
   } else {
-    $( this ).children( ".emtpy" ).last().attr("class",newClass);
+    $( this ).children( ".empty" ).last().attr("class",newClass);
     clickCounter.increment();
   }
 })

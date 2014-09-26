@@ -34,3 +34,15 @@ div.column div:last-child
     border-bottom: none; 
 }
 
+.red{
+  background-color: red;
+  height: 90px;
+  border-bottom-style: dotted; 
+}
+
+.yellow{
+  background-color: yellow;
+  height: 90px;
+  border-bottom-style: dotted; 
+}
+
