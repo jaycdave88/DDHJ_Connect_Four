@@ -5,11 +5,8 @@
     
     
     clickCount          = clickCounter.count;
-     console.log(clickCount);
-
 
     currentSquare       = $( this ).children( ".empty" ).last().next();
-
 
     currentSquareNum    = currentSquare.attr('id');
     

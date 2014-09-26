@@ -1,3 +1,10 @@
+
+
+<div class="wrapper">
+    <% @hash1 = Digest::MD5.hexdigest(session[:email1]) %>
+      <img src="http://www.gravatar.com/avatar/<%= @hash1 %>"/>
+    <% @hash2 = Digest::MD5.hexdigest(session[:email2]) %>
+      <img src="http://www.gravatar.com/avatar/<%= @hash2 %>"/>
 <div class ="header">
   <h1>Connect Four</h1>
   <h4>by:</h4>
@@ -96,6 +103,3 @@
       <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
     </div>
   </footer>
-
-</div>
-

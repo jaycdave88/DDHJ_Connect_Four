@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+h1 {
+  text-align: center;
+}
+
+=======
 .header{
   background-color: #494546;
   color: #C5D0C1;
@@ -29,11 +35,46 @@ h3::first-letter{
   color:#C5D0C1 ;
   margin: 0 0 0 0;
 }
+>>>>>>> a2b09a96a0961a3f64a3979626f4c17ab00d25de
 .board{
   height: 550px;
   border: 1px solid;
   margin: 0 auto;
   width: 613px;
+<<<<<<< HEAD
+}
+
+.column {
+  float: left;
+  height: 100%;
+  board: 1px solid;
+  line-height: 15px;
+  border-right: 3px solid black;
+  width: 85px;
+}
+
+.last {
+  border-right: none;
+}
+
+.empty {
+  height: 90px;
+  border-bottom-style: dotted;
+}
+
+div.column div:last-child {
+    border-bottom: none;
+}
+
+#banner {
+  padding: 90px;
+  text-align: center;
+}
+
+#login {
+  text-align: center;
+}
+=======
   background-color:  #336699;
 }
 .column {
@@ -120,3 +161,4 @@ a{
    background: #1b435e;
    }
 
+>>>>>>> a2b09a96a0961a3f64a3979626f4c17ab00d25de
