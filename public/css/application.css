@@ -1,13 +1,41 @@
-h1{
-  background-color: red
+h1 {
+  text-align: center;
 }
 
-.board {
-  border: 1px solid black;
-  margin: 0 50px 0 50px ;
-  overflow: hidden;
+.board{
+  height: 550px;
+  border: 1px solid;
+  margin: 0 auto;
+  width: 613px;
 }
 
-.column1 {
+.column {
+  float: left;
+  height: 100%;
+  board: 1px solid;
+  line-height: 15px;
+  border-right: 3px solid black;
+  width: 85px;
+}
 
+.last {
+  border-right: none;
+}
+
+.empty {
+  height: 90px;
+  border-bottom-style: dotted;
+}
+
+div.column div:last-child {
+    border-bottom: none;
+}
+
+#banner {
+  padding: 90px;
+  text-align: center;
+}
+
+#login {
+  text-align: center;
 }
