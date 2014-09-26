@@ -1,6 +1,37 @@
+.header{
+  background-color: #494546;
+  color: #C5D0C1;
+  text-align: center;
+  padding: 1px;
+}
 
-.wrapper
-{
+h1{
+  text-decoration: underline;
+}
+h1:hover{
+  color: #E8866C;
+}
+h3{
+  display: inline-block;
+
+}
+
+h3::first-letter{
+  font-size: 18px;
+  color: #E8866C;
+  display: inline-block;
+
+}
+
+.wrapper{
+  background-color: #828E8C;
+}
+
+.break{
+  background-color: #C5D0C1;
+  color:#C5D0C1 ;
+  margin: 0 0 0 0;
+
 }
 
 .board{
@@ -8,6 +39,7 @@
   border: 1px solid;
   margin: 0 auto;
   width: 613px;
+  background-color:  #336699;
 }
 
 .column {
@@ -26,23 +58,36 @@
 
 .empty{
   height: 90px;
-  border-bottom-style: dotted; 
+  border-radius: 50%;
+  background-color: white
 }
 
 div.column div:last-child
 {
-    border-bottom: none; 
+    /*border-bottom: none; */
 }
 
 .red{
   background-color: red;
   height: 90px;
-  border-bottom-style: dotted; 
+  border-bottom-style: solid; 
+  border-radius: 50%;
 }
 
 .yellow{
   background-color: yellow;
   height: 90px;
-  border-bottom-style: dotted; 
+  border-bottom-style: solid;
+  border-radius: 50%;
+}
+
+footer{
+ margin: 0 auto;
+ text-align: center;
+ background-color:#494546;
+ padding: 5px;
+}
+.end.fb-like{
+  color: #C5D0C1
 }
 
