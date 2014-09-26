@@ -8,3 +8,7 @@ post '/gravatars' do
   erb :index
 end
 
+get '/gravatars' do
+	erb :index
+end
+

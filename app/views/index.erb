@@ -2,9 +2,7 @@
 
 <div class="wrapper">
     <% @hash1 = Digest::MD5.hexdigest(session[:email1]) %>
-      <img src="http://www.gravatar.com/avatar/<%= @hash1 %>"/>
     <% @hash2 = Digest::MD5.hexdigest(session[:email2]) %>
-      <img src="http://www.gravatar.com/avatar/<%= @hash2 %>"/>
 <div class ="header">
   <h1>Connect Four</h1>
   <h4>by:</h4>
@@ -24,6 +22,12 @@
       <h3>Jay</h3>
     </div>
   </div>
+  
+  <div class="players">
+        <img class="player1" src="http://www.gravatar.com/avatar/<%= @hash2 %>"/>
+        <img class="player2" src="http://www.gravatar.com/avatar/<%= @hash1 %>"/>
+  </div>
+
   <div class= "break">
     .
   </div>
