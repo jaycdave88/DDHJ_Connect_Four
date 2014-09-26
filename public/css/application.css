@@ -2,12 +2,37 @@ h1{
   background-color: red
 }
 
-.board {
-  border: 1px solid black;
-  margin: 0 50px 0 50px ;
-  overflow: hidden;
+.wrapper
+{
 }
 
-.column1 {
+.board{
+  height: 550px;
+  border: 1px solid;
+  margin: 0 auto;
+  width: 613px;
+}
 
+.column {
+  float: left;
+  height: 100%;
+  board: 1px solid;
+  line-height: 15px;
+  border-right: 3px solid black;
+  width: 85px;
+}
+
+.last
+{
+  border-right: none;
+}
+
+.empty{
+  height: 90px;
+  border-bottom-style: dotted; 
+}
+
+div.column div:last-child
+{
+    border-bottom: none; 
 }
