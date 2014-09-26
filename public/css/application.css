@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-h1 {
-  text-align: center;
-}
 
-=======
 .header{
   background-color: #494546;
   color: #C5D0C1;
@@ -35,13 +30,12 @@ h3::first-letter{
   color:#C5D0C1 ;
   margin: 0 0 0 0;
 }
->>>>>>> a2b09a96a0961a3f64a3979626f4c17ab00d25de
 .board{
   height: 550px;
   border: 1px solid;
   margin: 0 auto;
   width: 613px;
-<<<<<<< HEAD
+
 }
 
 .column {
@@ -59,11 +53,11 @@ h3::first-letter{
 
 .empty {
   height: 90px;
-  border-bottom-style: dotted;
+  border-bottom-style: solid;
 }
 
 div.column div:last-child {
-    border-bottom: none;
+    
 }
 
 #banner {
@@ -74,8 +68,7 @@ div.column div:last-child {
 #login {
   text-align: center;
 }
-=======
-  background-color:  #336699;
+
 }
 .column {
   float: left;
@@ -161,4 +154,8 @@ a{
    background: #1b435e;
    }
 
->>>>>>> a2b09a96a0961a3f64a3979626f4c17ab00d25de
+
+.players img.player2{
+  float: right;
+  
+}
